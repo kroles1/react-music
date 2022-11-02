@@ -1,0 +1,7 @@
+export {default as Home} from './Home'
+export {default as Artist} from './Artist'
+export {default as NotFound} from './NotFound'
+export {default as Albums} from './Albums'
+export {default as Album} from './Album' 
+export {default as AxiosLyrics} from './AxiosLyrics' 
+export {AlbumProvider} from './AlbumContext'

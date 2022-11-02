@@ -10,8 +10,8 @@ export default function AlbumItem({album, updateAlbums}) {
 
   return (
     <div className="card" key={album.id}>
-        <h1 className="card-name">Album name: {album.name}</h1>
-        <h2>Release date: {album.release}</h2>
+        <h1 title="name" className="card-name">Album name: {album.name}</h1>
+        <h2 title="release">Release date: {album.release}</h2>
         <img style={{width: 500}} src={album.cover}></img>
         <button onClick={handleDelete} className="trash-btn">X</button>
         <button onClick={() => setLike((prevState) => !prevState)}>{like ? "Thanks for your love 💙 " : " 👍 "}</button>
